@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         glue = {"stepdefinitions", "hooks"},
         plugin = {"pretty", "html:target/cucumber-reports/report.html"
         },
-//        tags = "@demo",
+//        tags = "@demo", @sanity, @functionality
 		dryRun = false,
         monochrome = true
 )
