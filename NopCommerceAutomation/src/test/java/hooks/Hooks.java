@@ -37,7 +37,7 @@ public class Hooks {
             String screenshotName = sc.getName().replaceAll(" ", "_");
             File sourceFile = ((TakesScreenshot) DriverFactory.getDriver()).getScreenshotAs(OutputType.FILE);
             try {
-                FileUtils.copyFile(sourceFile, new File("src/test/resources/snapshots/"+screenshotName+".png"));
+                FileUtils.copyFile(sourceFile, new File("TestResult-html/HtmlReport/"+screenshotName+".png"));
             } catch (IOException e) {
                 e.printStackTrace();
             }

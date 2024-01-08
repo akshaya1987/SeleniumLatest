@@ -9,7 +9,7 @@ import org.openqa.selenium.safari.SafariDriver;
 public class DriverFactory {
     public static ThreadLocal<WebDriver> tldriver = new ThreadLocal<>();
 
-    public  static WebDriver initDriver(String browser) {
+    public static WebDriver initDriver(String browser) {
 
         System.out.println("Browser is : " + browser);
         System.out.println("Browser is : " + browser.equalsIgnoreCase("Chrome"));

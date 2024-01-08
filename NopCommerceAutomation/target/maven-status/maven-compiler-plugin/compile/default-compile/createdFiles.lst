@@ -1,0 +1,16 @@
+utilities/RandomStringGenerator.class
+manager/PageObjectManager.class
+pages/Dashboard_Page.class
+pages/Login_Page.class
+utilities/Loggers.class
+utilities/TestContext.class
+pages/AddNewCustomer_Page.class
+pages/Base_Page.class
+constants/Constants.class
+pages/Customers_Page.class
+enums/WaitStrategy.class
+generics/PageFunctions$1.class
+generics/PageFunctions.class
+config/ConfigFactory.class
+config/Configurations.class
+driverfactory/DriverFactory.class
