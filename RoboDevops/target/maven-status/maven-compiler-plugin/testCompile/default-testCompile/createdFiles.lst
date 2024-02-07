@@ -1,0 +1,6 @@
+hooks/Hooks.class
+testrunner/TestRunner.class
+stepdefinitions/Login_Steps.class
+stepdefinitions/Dashboard_Steps.class
+stepdefinitions/Customers_Steps.class
+stepdefinitions/AddNewCustomer_Steps.class

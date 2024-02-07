@@ -16,8 +16,8 @@ Feature: Dashboard functionalities
       | Edit services info     |
       | "Powered by" link      |
 
-  Scenario: Successful login with valid credentials
-    Given User opens the nopCommerce login page
-    When Enters username and password
-    And Clicks on login button
-    Then Successfully logged into the application
+#  Scenario: Successful login with valid credentials
+#    Given User opens the nopCommerce login page
+#    When Enters username and password
+#    And Clicks on login button
+#    Then Successfully logged into the application

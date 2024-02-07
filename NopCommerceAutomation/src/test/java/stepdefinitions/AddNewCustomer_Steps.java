@@ -4,6 +4,7 @@ import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import utilities.TestContext;
+import static org.junit.Assert.assertEquals;
 
 public class AddNewCustomer_Steps {
     TestContext testContext;

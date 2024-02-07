@@ -1,10 +1,7 @@
 package manager;
 
 import org.openqa.selenium.WebDriver;
-import pages.AddNewCustomer_Page;
-import pages.Customers_Page;
-import pages.Dashboard_Page;
-import pages.Login_Page;
+import pages.*;
 import utilities.TestContext;
 
 public class PageObjectManager {
@@ -13,11 +10,14 @@ public class PageObjectManager {
     private Customers_Page customerPage;
     private Dashboard_Page dashboardPage;
     private Login_Page loginPage;
+    private ChooseProduct_Page chooseProductPage;
+    private AddCustomerRole_Page addCustomerRolePage;
 
     TestContext testContext;
 
     public PageObjectManager(TestContext testContext) {
         this.testContext = testContext;
+        System.out.println("From Page object manager");
     }
 
     public AddNewCustomer_Page getAddNewCustomerPage(){
@@ -34,5 +34,13 @@ public class PageObjectManager {
 
     public Login_Page getLoginPage(){
         return (loginPage == null) ? loginPage = new Login_Page(testContext) : loginPage;
+    }
+
+    public ChooseProduct_Page getChooseProductPage(){
+        return (chooseProductPage == null) ? chooseProductPage = new ChooseProduct_Page(testContext) : chooseProductPage;
+    }
+
+    public AddCustomerRole_Page getAddCustomerRolePage(){
+        return (addCustomerRolePage == null) ? addCustomerRolePage = new AddCustomerRole_Page(testContext) : addCustomerRolePage;
     }
 }

@@ -1,0 +1,16 @@
+/Volumes/BackUP/Selenium Projects/SeleniumLatest/NopCommerceAutomation/src/main/java/config/ConfigFactory.java
+/Volumes/BackUP/Selenium Projects/SeleniumLatest/NopCommerceAutomation/src/main/java/config/Configurations.java
+/Volumes/BackUP/Selenium Projects/SeleniumLatest/NopCommerceAutomation/src/main/java/constants/Constants.java
+/Volumes/BackUP/Selenium Projects/SeleniumLatest/NopCommerceAutomation/src/main/java/driverfactory/DriverFactory.java
+/Volumes/BackUP/Selenium Projects/SeleniumLatest/NopCommerceAutomation/src/main/java/enums/WaitStrategy.java
+/Volumes/BackUP/Selenium Projects/SeleniumLatest/NopCommerceAutomation/src/main/java/generics/PageFunctions.java
+/Volumes/BackUP/Selenium Projects/SeleniumLatest/NopCommerceAutomation/src/main/java/manager/PageObjectManager.java
+/Volumes/BackUP/Selenium Projects/SeleniumLatest/NopCommerceAutomation/src/main/java/pages/AddNewCustomer_Page.java
+/Volumes/BackUP/Selenium Projects/SeleniumLatest/NopCommerceAutomation/src/main/java/pages/Base_Page.java
+/Volumes/BackUP/Selenium Projects/SeleniumLatest/NopCommerceAutomation/src/main/java/pages/CalendarHandler.java
+/Volumes/BackUP/Selenium Projects/SeleniumLatest/NopCommerceAutomation/src/main/java/pages/Customers_Page.java
+/Volumes/BackUP/Selenium Projects/SeleniumLatest/NopCommerceAutomation/src/main/java/pages/Dashboard_Page.java
+/Volumes/BackUP/Selenium Projects/SeleniumLatest/NopCommerceAutomation/src/main/java/pages/Login_Page.java
+/Volumes/BackUP/Selenium Projects/SeleniumLatest/NopCommerceAutomation/src/main/java/utilities/Loggers.java
+/Volumes/BackUP/Selenium Projects/SeleniumLatest/NopCommerceAutomation/src/main/java/utilities/RandomStringGenerator.java
+/Volumes/BackUP/Selenium Projects/SeleniumLatest/NopCommerceAutomation/src/main/java/utilities/TestContext.java

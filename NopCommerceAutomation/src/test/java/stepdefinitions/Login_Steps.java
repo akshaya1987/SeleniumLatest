@@ -31,6 +31,7 @@ public class Login_Steps {
 
     @Given("User opens the nopCommerce login page")
     public void user_opens_the_nop_commerce_login_page() {
+//        log.info("Launching the URL");
         testContext.loginPage.loadURL();
         log.info("Application URL is opened");
     }

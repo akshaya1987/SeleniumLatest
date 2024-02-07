@@ -1,13 +1,12 @@
-package utilities;
+package strings;
 
 import org.testng.annotations.Test;
 
-public class Stringmanipulator {
+public class Strings {
     String name = "Ganesha";
     String place = "newplacea";
     String sample = "aa ABC abC ABc abc aac";
     String animal = "Giraffe";
-
 
     @Test
     void manipulator() {
@@ -27,4 +26,3 @@ public class Stringmanipulator {
         System.out.println(animal.substring(0, 5)+animal.substring(5+1));
     }
 }
-

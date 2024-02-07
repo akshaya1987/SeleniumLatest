@@ -17,6 +17,7 @@ public class Login_Page {
 
     public Login_Page(TestContext testContext) {
         this.testContext = testContext;
+        System.out.println("From login page");
     }
 
     public void loadURL() {

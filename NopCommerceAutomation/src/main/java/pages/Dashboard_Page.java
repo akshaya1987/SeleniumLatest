@@ -8,6 +8,7 @@ import utilities.TestContext;
 
 import java.util.List;
 import java.util.ListIterator;
+
 import static generics.PageFunctions._performExplicitWait;
 
 public class Dashboard_Page {
@@ -23,6 +24,7 @@ public class Dashboard_Page {
     By viewConfigurationStepsButton = By.xpath("//div[contains(@class, 'collapsed-card') and @id='configuration-steps-card']//button[@data-card-widget='collapse']");
     By customerHamburgerMenu = By.xpath("//a[@class='nav-link']/i[@class='nav-icon far fa-user']");
     By customersMenu = By.xpath("//a[@class='nav-link']//p[text()=' Customers']");
+    By customersRolesMenu = By.xpath("//a[@class='nav-link']//p[text()=' Customer roles']");
 
     public boolean dashboardPageDisplayed() {
         System.out.println((!PageFunctions._performExplicitWait(dashboardPagetext, WaitStrategy.VISIBLE).isDisplayed()));
@@ -68,6 +70,10 @@ public class Dashboard_Page {
 
     public void clickCustomersLink() {
         PageFunctions._clickByJavascriptExecutor(customersMenu, WaitStrategy.CLICKABLE);
+    }
+
+    public void clickCustomerRolesLink() {
+        PageFunctions._clickByJavascriptExecutor(customersRolesMenu, WaitStrategy.CLICKABLE);
     }
 }
 

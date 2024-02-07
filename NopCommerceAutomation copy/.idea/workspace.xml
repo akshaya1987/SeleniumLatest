@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c924b20-d365-4dd2-9db1-c6bb96f018f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaInterviewPrograms/src/main/java/notebook/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaInterviewPrograms/src/main/java/strings/Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NopCommerceAutomation/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NopCommerceAutomation/src/main/java/pages/AddCustomerRole_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NopCommerceAutomation/src/main/java/pages/ChooseProduct_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NopCommerceAutomation/src/test/java/stepdefinitions/CustomerRole_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NopCommerceAutomation/src/test/resources/features/CustomerRoles.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaInterviewPrograms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaInterviewPrograms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaInterviewPrograms/src/main/java/patterns/Patterns.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaInterviewPrograms/src/main/java/patterns/Patterns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/TestResult-html/HtmlReport/Successful_login_with_valid_credentials_data_driven_validation.png" beforeDir="false" afterPath="$PROJECT_DIR$/../NopCommerceAutomation/TestResult-html/HtmlReport/Successful_login_with_valid_credentials_data_driven_validation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/src/main/java/generics/PageFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NopCommerceAutomation/src/main/java/generics/PageFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/src/main/java/manager/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NopCommerceAutomation/src/main/java/manager/PageObjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/src/main/java/pages/Dashboard_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NopCommerceAutomation/src/main/java/pages/Dashboard_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/src/main/java/pages/Login_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NopCommerceAutomation/src/main/java/pages/Login_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/src/main/java/utilities/Stringmanipulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/src/main/java/utilities/TestContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NopCommerceAutomation/src/main/java/utilities/TestContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/src/test/java/stepdefinitions/AddNewCustomer_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NopCommerceAutomation/src/test/java/stepdefinitions/AddNewCustomer_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/src/test/java/stepdefinitions/Login_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NopCommerceAutomation/src/test/java/stepdefinitions/Login_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/src/test/resources/features/Dashboard.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../NopCommerceAutomation/src/test/resources/features/Dashboard.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/target/classes/generics/PageFunctions$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NopCommerceAutomation/target/classes/generics/PageFunctions$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/target/classes/generics/PageFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NopCommerceAutomation/target/classes/generics/PageFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/target/classes/manager/PageObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NopCommerceAutomation/target/classes/manager/PageObjectManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/target/classes/pages/Dashboard_Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NopCommerceAutomation/target/classes/pages/Dashboard_Page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/target/classes/pages/Login_Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NopCommerceAutomation/target/classes/pages/Login_Page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/target/classes/utilities/Stringmanipulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/target/classes/utilities/TestContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NopCommerceAutomation/target/classes/utilities/TestContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/target/test-classes/features/Dashboard.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../NopCommerceAutomation/target/test-classes/features/Dashboard.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/target/test-classes/stepdefinitions/AddNewCustomer_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NopCommerceAutomation/target/test-classes/stepdefinitions/AddNewCustomer_Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NopCommerceAutomation/target/test-classes/stepdefinitions/Login_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NopCommerceAutomation/target/test-classes/stepdefinitions/Login_Steps.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2aQvK9efZ2lQXHD7YZgzAX85j89" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Add a new customer role">
+    <configuration name="Feature: CustomerRoles" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CustomerRoles.feature" />
+      <option name="GLUE" value="stepdefinitions hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="NopCommerceAutomation" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: CustomerRoles" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="GLUE" value="stepdefinitions hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="NopCommerceAutomation" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Add a new customer role" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CustomerRoles.feature" />
+      <option name="GLUE" value="stepdefinitions hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="NopCommerceAutomation" />
+      <option name="NAME_FILTER" value="^Add a new customer role$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add a new customer role$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add a new customer role" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Successful login with valid credentials data driven validation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+      <option name="GLUE" value="stepdefinitions hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="NopCommerceAutomation" />
+      <option name="NAME_FILTER" value="^Successful login with valid credentials data driven validation$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Successful login with valid credentials data driven validation$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Successful login with valid credentials data driven validation" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stringmanipulator.removeParticularCharacter" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopCommerceAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="utilities" />
+      <option name="MAIN_CLASS_NAME" value="utilities.Stringmanipulator" />
+      <option name="METHOD_NAME" value="removeParticularCharacter" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: Add a new customer role" />
+        <item itemvalue="Cucumber Java.Feature: Login" />
+        <item itemvalue="Cucumber Java.Scenario: Successful login with valid credentials data driven validation" />
+        <item itemvalue="Cucumber Java.Feature: CustomerRoles" />
+        <item itemvalue="TestNG.Stringmanipulator.removeParticularCharacter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c924b20-d365-4dd2-9db1-c6bb96f018f2" name="Changes" comment="" />
+      <created>1704263551880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704263551880</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
