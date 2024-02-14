@@ -8,11 +8,14 @@ import pages.*;
 public class TestContext {
     public PageObjectManager pageObjectManager;
     public Loginpage loginPage;
+    public Dashboardpage dashboardPage;
+    public Homepage homepage;
 
     public TestContext() {
         System.out.println("From test context");
         pageObjectManager = new PageObjectManager(this);
         loginPage = pageObjectManager.getLoginPage();
-
+        dashboardPage = pageObjectManager.getDashboardPage();
+        homepage = pageObjectManager.getHomepage();
     }
 }

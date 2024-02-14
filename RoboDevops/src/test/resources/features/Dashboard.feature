@@ -3,21 +3,19 @@ Feature: Dashboard functionalities
   Background:
     Given User signs in to the app
 
-  Scenario: Store settings options are displayed
-    Given User is in Dashboard
-    Then Store setting options are displayed
-      | Personalize your store |
-      | Add your store info    |
-      | Set up shipping        |
-      | Set up payments        |
-      | Set up taxes           |
-      | Create products        |
-      | Set up email accounts  |
-      | Edit services info     |
-      | "Powered by" link      |
+  Scenario: Dashboard statistics are displayed
+    When User is in Dashboard
+    Then Statistics are displayed in Dashboard
+      | Total Projects      |
+      | Total Users         |
+      | Total Applications  |
+      | Total Pipelines     |
 
-#  Scenario: Successful login with valid credentials
-#    Given User opens the nopCommerce login page
-#    When Enters username and password
-#    And Clicks on login button
-#    Then Successfully logged into the application
+  Scenario: Dashboard Build status information displayed
+    When User is in Dashboard
+    Then Build status pie chart is displayed
+    And   Build status information are displayed
+
+  Scenario: Dashboard Technology overview information displayed
+    When User is in Dashboard
+    Then Technology overview pie chart is displayed

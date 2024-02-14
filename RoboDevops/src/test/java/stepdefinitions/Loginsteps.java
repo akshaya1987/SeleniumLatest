@@ -1,5 +1,6 @@
 package stepdefinitions;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -9,7 +10,7 @@ import utilities.Loggers;
 import utilities.TestContext;
 
 public class Loginsteps {
-    private TestContext testContext;
+    private final TestContext testContext;
     Logger log = Loggers.log();
 
     public Loginsteps(TestContext testContext) {
@@ -19,10 +20,10 @@ public class Loginsteps {
     @Given("User signs in to the app")
     public void user_signs_in_to_the_application() {
         testContext.loginPage.loadURL();
-//        log.info("Application URL is opened");
+        log.info("Application URL is opened");
         testContext.loginPage.fillUserName();
         testContext.loginPage.fillPassword();
-        testContext.loginPage.clickLoginButton();
+        testContext.loginPage.clickContinueButton();
         log.info("Signed into the application");
     }
 
@@ -33,11 +34,11 @@ public class Loginsteps {
         log.info("Application URL is opened");
     }
 
-    @When("Enters username and password")
-    public void entersUsernameAndPassword() {
-        testContext.loginPage.fillUserName();
-        testContext.loginPage.fillPassword();
-    }
+//    @When("Enters username and password")
+//    public void entersUsernameAndPassword() {
+//        testContext.loginPage.fillUserName();
+//        testContext.loginPage.fillPassword();
+//    }
 
     @When("Enters username {string} and password {string}")
     public void enters_username_and_password(String useremail, String password) {
@@ -45,20 +46,18 @@ public class Loginsteps {
         testContext.loginPage.fillPasswordDDT(password);
     }
 
-    @When("Clicks on login button")
-    public void clicks_on_login_button() {
-        testContext.loginPage.clickLoginButton();
+    @When("Clicks on Continue button")
+    public void clicks_on_continue_button() {
+        testContext.loginPage.clickContinueButton();
     }
 
     @Then("Successfully logged into the application")
     public void successfully_logged_into_the_application() {
-//        Assert.assertTrue(testContext.dashboardPage.dashboardPageDisplayed());
-//        log.info("Successfully logged in to the application");
+        Assert.assertTrue(testContext.dashboardPage.dashboardPageDisplayed());
+        log.info("Successfully logged in to the application");
     }
 
-    @Given("User is in Dashboard")
-    public void user_is_in_dashboard() {
-//        Assert.assertTrue(testContext.dashboardPage.dashboardPageDisplayed());
-//        log.info("Dashboard is displayed");
-    }
+
+
+
 }

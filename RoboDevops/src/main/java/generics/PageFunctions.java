@@ -40,7 +40,7 @@ public class PageFunctions {
     public static void _clearAndSendKeys(By by, String text, String eleName) {
         WebElement webElement;
         try {
-            webElement = _performExplicitWait(by, NONE);
+            webElement = _performExplicitWait(by, VISIBLE);
 //            String os = System.getProperty("os.name");
             webElement.sendKeys(Keys.COMMAND + "a");
             webElement.sendKeys(Keys.DELETE);
@@ -164,7 +164,9 @@ public class PageFunctions {
     public static List<String> _getAllDisplayedElementsText(By by) {
         List<String> allDisplayedEleText = new ArrayList<>();
         for (WebElement webElement : _getElements(by, "")) {
-            if (webElement.isDisplayed())  allDisplayedEleText.add(webElement.getText().trim().split("\n", 2)[0].substring(5));
+//            if (webElement.isDisplayed())  allDisplayedEleText.add(webElement.getText().trim().split("\n", 2)[0].substring(5));
+            if (webElement.isDisplayed())  allDisplayedEleText.add(webElement.getText().trim());
+
         }
         return allDisplayedEleText;
     }

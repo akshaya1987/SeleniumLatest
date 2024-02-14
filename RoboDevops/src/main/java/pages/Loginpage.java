@@ -8,9 +8,9 @@ import utilities.TestContext;
 import static generics.PageFunctions.*;
 
 public class Loginpage {
-    By LoginIDField = By.id("Email");
-    By loginPasswordField = By.id("Password");
-    By LoginButton = By.xpath("//button[@class='button-1 login-button']");
+    By loginEmailField = By.xpath("//input[@name='email' and @type='email']");
+    By loginPasswordField = By.xpath("//input[@name='password' and @type='password']");
+    By LoginContinueButton = By.xpath("//button[@type='submit']");
 
     TestContext testContext;
 
@@ -24,7 +24,7 @@ public class Loginpage {
     }
 
     public void fillUserName() {
-        _clearAndSendKeys(LoginIDField, ConfigFactory.getConfig().username(), "username");
+        _clearAndSendKeys(loginEmailField, ConfigFactory.getConfig().username(), "username");
     }
 
     public void fillPassword() {
@@ -32,7 +32,7 @@ public class Loginpage {
     }
 
     public void fillUserNameDDT(String username){
-        _clearAndSendKeys(LoginIDField, username, "username");
+        _clearAndSendKeys(loginEmailField, username, "username");
 
     }
 
@@ -40,7 +40,7 @@ public class Loginpage {
         _clearAndSendKeys(loginPasswordField, password, "password");
     }
 
-    public void clickLoginButton() {
-        _performExplicitWait(LoginButton, WaitStrategy.NONE).click();
+    public void clickContinueButton() {
+        _performExplicitWait(LoginContinueButton, WaitStrategy.NONE).click();
     }
 }
