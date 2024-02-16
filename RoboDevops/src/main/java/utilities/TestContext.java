@@ -10,6 +10,9 @@ public class TestContext {
     public Loginpage loginPage;
     public Dashboardpage dashboardPage;
     public Homepage homepage;
+    public Tenantspage tenantspage;
+    public Addtenantspage addtenantspage;
+    public Updatetenantpage updatetenantspage;
 
     public TestContext() {
         System.out.println("From test context");
@@ -17,5 +20,8 @@ public class TestContext {
         loginPage = pageObjectManager.getLoginPage();
         dashboardPage = pageObjectManager.getDashboardPage();
         homepage = pageObjectManager.getHomepage();
+        tenantspage = pageObjectManager.getTenantspage();
+        addtenantspage = pageObjectManager.getAddtenantspage();
+        updatetenantspage = pageObjectManager.getUpdatetenantspage();
     }
 }

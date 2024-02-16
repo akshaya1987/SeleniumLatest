@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Grasshopper Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jan 5, 2024 11:32:54 am</span></a>
+<a href="#"><span class="badge badge-primary">Feb 16, 2024 05:21:13 pm</span></a>
 </li>
 </ul>
 </div>
@@ -52,16 +52,6 @@
 <span class="ico"><i class="fa fa-list"></i></span>
 </a>
 </li>
-<li class="nav-item dropdown" onclick="toggleView('category-view')">
-<a id="nav-category" class="dropdown-toggle" href="#">
-<span class="ico"><i class="fa fa-tag"></i></span>
-</a>
-</li>
-<li class="nav-item dropdown" onclick="toggleView('exception-view')">
-<a id="nav-exception" class="dropdown-toggle" href="#">
-<span class="ico"><i class="fa fa-bug"></i></span>
-</a>
-</li>
 </ul>
 </div>
 </div>      <div class="vcontainer">
@@ -71,25 +61,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jan 5, 2024 11:32:54 am</h3>
+<h3>Feb 16, 2024 05:21:13 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jan 5, 2024 11:33:27 am</h3>
+<h3>Feb 16, 2024 05:21:53 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>0</h3>
+<h3>3</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 </div>
@@ -105,12 +95,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'>
-<b>0</b> features passed
+<div><small data-tooltip='100%'>
+<b>3</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='100%'><b>1</b> features failed,
+<small data-tooltip='0%'><b>0</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -128,9 +118,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='50%'><b>1</b> scenarios passed</small></div>
+<div><small data-tooltip='100%'><b>7</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='50%'><b>1</b> scenarios failed,
+<small data-tooltip='0%'><b>0</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -148,9 +138,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='88%'><b>8</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>37</b> steps passed</small></div>
 <div>
-<small data-tooltip='11%'><b>1</b> steps failed,
+<small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -167,27 +157,10 @@
 </div></div>
 <script>
 var timeline = {
-"Login to nopCommerce web application":31.874
+"Dashboard functionalities":15.061,"Login to RoboDevops as super admin":4.185,"Add/Update/Delete Tenants":19.869
 };
 </script>
 <div class="row">
-<div class="col-lg-6 col-md-12 category-container">
-<div class="card">
-<div class="card-header"><p>Tags</p></div>
-<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
-<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
-<tr>
-<td>@demo</td>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>50%</td>
-</tr>
-</tbody>
-</table></div>
-</div>
-</div>
 <div class="col-lg-6 col-md-12 sysenv-container">
 <div class="card">
 <div class="card-header"><p>System/Environment</p></div>
@@ -196,7 +169,7 @@ var timeline = {
 <tbody>
 <tr>
 <td>AppName</td>
-<td>nopEcommerce</td>
+<td>RoboDevops</td>
 </tr>
 <tr>
 <td>user</td>
@@ -219,19 +192,19 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 0,
-failParent: 1,
+passParent: 3,
+failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 1,
-failChild: 1,
+passChild: 7,
+failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 8,
-failGrandChild: 1,
+passGrandChild: 37,
+failGrandChild: 0,
 warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
@@ -247,39 +220,33 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
-</ul>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
-<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@demo</a>
 </ul>
 </li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Login to nopCommerce web application</p>
+            <p class="name">Dashboard functionalities</p>
             <p class="text-sm">
-              <span>11:32:55 am</span> / <span>00:00:31:874</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>5:21:13 pm</span> / <span>00:00:15:061</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Login to nopCommerce web application</h5>
-<span class='badge badge-success'>01.05.2024 11:32:55 am</span>
-<span class='badge badge-danger'>01.05.2024 11:33:27 am</span>
-<span class='badge badge-default'>00:00:31:874</span>
+<h5 class="test-status text-pass">Dashboard functionalities</h5>
+<span class='badge badge-success'>02.16.2024 5:21:13 pm</span>
+<span class='badge badge-danger'>02.16.2024 5:21:28 pm</span>
+<span class='badge badge-default'>00:00:15:061</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -291,32 +258,144 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Successful login with valid credentials data driven validation</div>
-          <div class="status-avatar float-right mr-4">
-            <i class="fa fa-paperclip"></i>
-          </div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Dashboard statistics are displayed</div>
       </div>
     </div>
-        <div class="scenario_outline ">
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Loginsteps.user_signs_in_to_the_application()">
+                <span>Given User signs in to the app</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Dashboardsteps.user_is_in_dashboard()">
+                <span>When User is in Dashboard</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Dashboardsteps.statistics_are_displayed_in_dashboard(io.cucumber.datatable.DataTable)">
+                <span>Then Statistics are displayed in Dashboard</span>
+      <div><table class='markup-table table '><tr><td>Total Projects</td></tr><tr><td>Total Users</td></tr><tr><td>Total Applications</td></tr><tr><td>Total Pipelines</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="9"><span class="badge log pass-bg mr-2">Pass</span>Dashboard Build status information displayed</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Loginsteps.user_signs_in_to_the_application()">
+                <span>Given User signs in to the app</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Dashboardsteps.user_is_in_dashboard()">
+                <span>When User is in Dashboard</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Dashboardsteps.build_status_pie_chart_is_displayed()">
+                <span>Then Build status pie chart is displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Dashboardsteps.build_status_informations_are_displayed()">
+                <span>And Build status information are displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="17"><span class="badge log pass-bg mr-2">Pass</span>Dashboard Technology overview information displayed</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Loginsteps.user_signs_in_to_the_application()">
+                <span>Given User signs in to the app</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Dashboardsteps.user_is_in_dashboard()">
+                <span>When User is in Dashboard</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Dashboardsteps.technology_overview_pie_chart_is_displayed()">
+                <span>Then Technology overview pie chart is displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login to RoboDevops as super admin</p>
+            <p class="text-sm">
+              <span>5:21:28 pm</span> / <span>00:00:04:185</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login to RoboDevops as super admin</h5>
+<span class='badge badge-success'>02.16.2024 5:21:28 pm</span>
+<span class='badge badge-danger'>02.16.2024 5:21:33 pm</span>
+<span class='badge badge-default'>00:00:04:185</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="25"><span class="badge log pass-bg mr-2">Pass</span>Successful login with valid credentials</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Successful login with valid credentials data driven validation</div>
+                  <div class="node" id="26"><span class="badge log pass-bg mr-2">Pass</span>Successful login with valid credentials</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
                   <div class="step pass-bg">
-                    <span>Given User opens the nopCommerce login page</span>
+                    <span>Given User opens the RoboDevops login page</span>
       <div>
       </div>
                   </div>
                   <div class="step pass-bg">
-                    <span>When Enters username "admin@yourstore.com" and password "admin"</span>
+                    <span>When Enters username "manju.p@roboso.com" and password "Robo@1234"</span>
       <div>
       </div>
                   </div>
                   <div class="step pass-bg">
-                    <span>And Clicks on login button</span>
+                    <span>And Clicks on Continue button</span>
       <div>
       </div>
                   </div>
@@ -327,63 +406,196 @@ eventsCount: 5,
                   </div>
               </div>
             </div>
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="11"><span class="badge log fail-bg mr-2">Fail</span>Successful login with valid credentials data driven validation</div>
-                    <div class="status-avatar float-right">
-                      <i class="fa fa-paperclip"></i>
-                    </div>
-                </div>
-              </div>
-              <div class="card-body mt-3 ">
-                  <div class="step pass-bg">
-                    <span>Given User opens the nopCommerce login page</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When Enters username "admin@yourstore1.com" and password "pass123"</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>And Clicks on login button</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step fail-bg">
-                    <span>Then Successfully logged into the application</span>
-      <div>
-        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='content-header'] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.6.3', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/8z/7hxg4b4x77l...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63574}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63574/devtoo..., se:cdpVersion: 119.0.6045.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f69b529a40accdfb0d231e129371b942
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-	at generics.PageFunctions._performExplicitWait(PageFunctions.java:67)
-	at pages.Dashboard_Page.dashboardPageDisplayed(Dashboard_Page.java:28)
-	at stepdefinitions.Login_Steps.successfully_logged_into_the_application(Login_Steps.java:57)
-	at ✽.Successfully logged into the application(file:///Volumes/BackUP/Selenium%20Projects/SeleniumLatest/NopCommerceAutomation/src/test/resources/features/Login.feature:8)
-</textarea>
-      
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>hooks.Hooks.tearDown(io.cucumber.java.Scenario)</span>
-      <div>Successful_login_with_valid_credentials_data_driven_validation
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='../embedded1.png' src="../embedded1.png">
-    
-    </div></div>
+        </div>
+  </div>
 </div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="34"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Add/Update/Delete Tenants</p>
+            <p class="text-sm">
+              <span>5:21:33 pm</span> / <span>00:00:19:869</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Add/Update/Delete Tenants</h5>
+<span class='badge badge-success'>02.16.2024 5:21:33 pm</span>
+<span class='badge badge-danger'>02.16.2024 5:21:53 pm</span>
+<span class='badge badge-default'>00:00:19:869</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="35"><span class="badge log pass-bg mr-2">Pass</span>Adding a new tenant</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Loginsteps.user_signs_in_to_the_application()">
+                <span>Given User signs in to the app</span>
       <div>
       </div>
-                  </div>
               </div>
-            </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.user_clicks_on_tenants_menu()">
+                <span>When User clicks on Tenants menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.tenants_page_is_displayed()">
+                <span>Then Tenants page is displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.clicks_on_add_button()">
+                <span>And Clicks on Add button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.create_tenant_page_is_displayed()">
+                <span>Then Create tenant page is displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.enters_tenants_details_and_clicks_on_create_button(io.cucumber.datatable.DataTable)">
+                <span>When Enters tenants details and clicks on Create button</span>
+      <div><table class='markup-table table '><tr><td>QA organization</td><td>QA admin</td><td>akshaya@robosoftin.com</td><td>robosoftin.com</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.tenant_created_successfully_message_is_displayed()">
+                <span>Then Tenant created successfully message is displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.tenant_is_listed_in_tenants_list()">
+                <span>And Tenant is listed in tenants list</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="47"><span class="badge log pass-bg mr-2">Pass</span>Updating the tenant</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Loginsteps.user_signs_in_to_the_application()">
+                <span>Given User signs in to the app</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.user_clicks_on_tenants_menu()">
+                <span>When User clicks on Tenants menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.tenants_page_is_displayed()">
+                <span>Then Tenants page is displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.clicks_on_update_button(io.cucumber.datatable.DataTable)">
+                <span>And Clicks on Update button</span>
+      <div><table class='markup-table table '><tr><td>QA organization</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.update_tenant_page_is_displayed()">
+                <span>And Update tenant page is displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.update_the_tenant_information(io.cucumber.datatable.DataTable)">
+                <span>Then Update the tenant information</span>
+      <div><table class='markup-table table '><tr><td>QA organization1</td><td>QA admin1</td><td>akshaya1@robosoftin.com</td><td>robosoftin1.com</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.click_on_update_button()">
+                <span>Then Click on Update button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.tenant_updated_successfully_message_is_displayed()">
+                <span>Then Tenant updated successfully message is displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.tenant_is_updated_in_the_tenants_list(io.cucumber.datatable.DataTable)">
+                <span>Then Tenant is updated in the tenants list</span>
+      <div><table class='markup-table table '><tr><td>QA organization1</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="60"><span class="badge log pass-bg mr-2">Pass</span>Deleting the tenant</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Loginsteps.user_signs_in_to_the_application()">
+                <span>Given User signs in to the app</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.user_clicks_on_tenants_menu()">
+                <span>When User clicks on Tenants menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.tenants_page_is_displayed()">
+                <span>Then Tenants page is displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.clicks_on_delete_button_and_confirms_deletion(io.cucumber.datatable.DataTable)">
+                <span>And Clicks on Delete button and confirms deletion</span>
+      <div><table class='markup-table table '><tr><td>QA organization</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.tenant_deleted_successfully_message_is_displayed()">
+                <span>Then Tenant deleted successfully message is displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Tenantssteps.tenant_is_removed_from_the_tenants_list(io.cucumber.datatable.DataTable)">
+                <span>Then Tenant is removed from the tenants list</span>
+      <div><table class='markup-table table '><tr><td>QA organization</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
         </div>
   </div>
 </div>
@@ -398,123 +610,7 @@ Session ID: f69b529a40accdfb0d231e129371b942
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="test-wrapper row view category-view attributes-view">
-<div class="test-list">
-<div class="test-list-tools">
-<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
-</div>
-<div class="test-list-wrapper scrollable">
-<ul class="test-list-item">
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>1</span>
-<span class='badge log badge-danger'>1</span>
-</span>
-<p class="name">@demo</p>
-<p class="duration text-sm">2 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@demo</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>11:32:55 am</td>
-<td>
-<a href="#" class="linked" test-id='1' id='3'>Successful login with valid credentials data driven validation</a>
-<div class="">
-<span class="badge badge-default">Login to nopCommerce web application.Successful login with valid credentials data driven validation</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>11:33:02 am</td>
-<td>
-<a href="#" class="linked" test-id='1' id='11'>Successful login with valid credentials data driven validation</a>
-<div class="">
-<span class="badge badge-default">Login to nopCommerce web application.Successful login with valid credentials data driven validation</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="test-content scrollable">
-<div class="test-content-detail">
-<div class="detail-body"></div>
-</div>
-</div>
-</div><div class="test-wrapper row view exception-view attributes-view">
-<div class="test-list">
-<div class="test-list-tools">
-<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
-</div>
-<div class="test-list-wrapper scrollable">
-<ul class="test-list-item">
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-danger'>1</span>
-</span>
-<p class="name">org.openqa.selenium.TimeoutException</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>org.openqa.selenium.TimeoutException</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>11:33:06 am</td>
-<td>
-<a href="#" class="linked" test-id='1' id='16'>Then Successfully logged into the application</a>
-<div class="">
-<span class="badge badge-default">Login to nopCommerce web application.Successful login with valid credentials data driven validation.Then Successfully logged into the application</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="test-content scrollable">
-<div class="test-content-detail">
-<div class="detail-body"></div>
-</div>
-</div>
-</div>        </div>
+        </div>
       </div>
     </div>
   </div>

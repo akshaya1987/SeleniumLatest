@@ -1,28 +1,35 @@
-Feature: Add and Delete Tenants
+Feature: Add/Update/Delete Tenants
   Background:
     Given User signs in to the app
 
-  Scenario: Add a new tenant
+  Scenario: Adding a new tenant
     When User clicks on Tenants menu
     Then Tenants page is displayed
     And Clicks on Add button
     Then Create tenant page is displayed
     When Enters tenants details and clicks on Create button
+      |QA organization|QA admin|akshaya@robosoftin.com|robosoftin.com|
     Then Tenant created successfully message is displayed
     And Tenant is listed in tenants list
-      |QA organization|QA admin|akshaya@robosoftin.com|robosoftin.com|
 
-  Scenario: Delete a new tenant
+  Scenario: Updating the tenant
     When User clicks on Tenants menu
     Then Tenants page is displayed
-    And Clicks on Delete button to delete the tenant
-    And Delete tenant popup is displayed and clciks on Ok button
+    And Clicks on Update button
+      |QA organization|
+    And Update tenant page is displayed
+    Then Update the tenant information
+      |QA organization1|QA admin1|akshaya1@robosoftin.com|robosoftin1.com|
+    Then Click on Update button
+    Then Tenant updated successfully message is displayed
+    Then Tenant is updated in the tenants list
+      |QA organization1|
+
+  Scenario: Deleting the tenant
+    When User clicks on Tenants menu
+    Then Tenants page is displayed
+    And Clicks on Delete button and confirms deletion
+      |QA organization|
     Then Tenant deleted successfully message is displayed
     Then Tenant is removed from the tenants list
       |QA organization|
-
-
-#  Scenario: Dashboard Build status information displayed1
-#    When User is in Dashboard1
-#    Then Build status pie chart is displayed1
-#    And   Build status information are displayed1

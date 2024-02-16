@@ -19,6 +19,8 @@ public class Loginpage {
         System.out.println("From login page");
     }
 
+    public String nme = "Aks";
+
     public void loadURL() {
         _loadURL(ConfigFactory.getConfig().url());
     }
@@ -31,12 +33,12 @@ public class Loginpage {
         _clearAndSendKeys(loginPasswordField, ConfigFactory.getConfig().password(), "password");
     }
 
-    public void fillUserNameDDT(String username){
+    public void fillUserNameDDT(String username) {
         _clearAndSendKeys(loginEmailField, username, "username");
 
     }
 
-    public void fillPasswordDDT(String password){
+    public void fillPasswordDDT(String password) {
         _clearAndSendKeys(loginPasswordField, password, "password");
     }
 

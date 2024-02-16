@@ -12,7 +12,6 @@ import utilities.TestContext;
 public class Loginsteps {
     private final TestContext testContext;
     Logger log = Loggers.log();
-
     public Loginsteps(TestContext testContext) {
         this.testContext = testContext;
     }
@@ -56,8 +55,6 @@ public class Loginsteps {
         Assert.assertTrue(testContext.dashboardPage.dashboardPageDisplayed());
         log.info("Successfully logged in to the application");
     }
-
-
 
 
 }

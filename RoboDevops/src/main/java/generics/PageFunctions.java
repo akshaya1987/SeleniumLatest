@@ -5,6 +5,7 @@ import constants.Constants;
 import driverfactory.DriverFactory;
 import enums.WaitStrategy;
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -29,7 +30,6 @@ public class PageFunctions {
     public static WebDriverWait _getWebDriverWait(long seconds) {
         return new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(seconds));
     }
-
 
     /**
      * This methods clears the WebElement Field and Fill the specified value
@@ -243,6 +243,19 @@ public class PageFunctions {
         jse.executeScript("arguments[0].click();", element);
     }
 
+    public static void _clickByJavascriptExecutor(WebElement element, WaitStrategy waitStrategy){
+        JavascriptExecutor jse = (JavascriptExecutor)DriverFactory.getDriver();
+        jse.executeScript("arguments[0].click();", element);
+    }
+
+    public static void _moveToElementAndClick( WebElement element ) {
+
+
+        Actions builder = new Actions(DriverFactory.getDriver());
+        builder.moveToElement( element ).click( element );
+        builder.perform();
+    }
+
     public static String _getWindowHandle() {
         return DriverFactory.getDriver().getWindowHandle();
     }
@@ -263,8 +276,6 @@ public class PageFunctions {
                 DriverFactory.getDriver().switchTo().window(childWindow);
             }
         }
-
     }
+
 }
-
-
