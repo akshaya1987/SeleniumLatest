@@ -26,6 +26,8 @@ public class Dashboard_Page {
     By customersMenu = By.xpath("//a[@class='nav-link']//p[text()=' Customers']");
     By customersRolesMenu = By.xpath("//a[@class='nav-link']//p[text()=' Customer roles']");
 
+    String name = "Akshayaaa";
+
     public boolean dashboardPageDisplayed() {
         System.out.println((!PageFunctions._performExplicitWait(dashboardPagetext, WaitStrategy.VISIBLE).isDisplayed()));
         return PageFunctions._performExplicitWait(dashboardPagetext, WaitStrategy.VISIBLE).isDisplayed();
