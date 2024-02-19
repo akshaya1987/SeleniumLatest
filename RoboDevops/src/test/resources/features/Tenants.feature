@@ -30,6 +30,6 @@ Feature: Add/Update/Delete Tenants
     Then Tenants page is displayed
     And Clicks on Delete button and confirms deletion
       |QA organization|
-    Then Tenant deleted successfully message is displayed
+#    Then Tenant deleted successfully message is displayed
     Then Tenant is removed from the tenants list
       |QA organization|

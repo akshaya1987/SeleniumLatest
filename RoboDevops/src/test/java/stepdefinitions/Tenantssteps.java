@@ -44,7 +44,7 @@ public class Tenantssteps {
 
     @Then("Tenant created successfully message is displayed")
     public void tenant_created_successfully_message_is_displayed() {
-        testContext.addtenantspage.addTenantsSuccessPageDisplayed();
+        Assert.assertTrue(testContext.addtenantspage.addTenantsSuccessPageDisplayed());
     }
 
     @Then("Tenant is listed in tenants list")
@@ -57,13 +57,14 @@ public class Tenantssteps {
         testContext.tenantspage.deleteTenant(dataTable);
     }
 
-    @Then("Tenant deleted successfully message is displayed")
-    public void tenant_deleted_successfully_message_is_displayed() {
-        Assert.assertTrue(testContext.tenantspage.tenantDeletedSuccessfully());
-    }
+//    @Then("Tenant deleted successfully message is displayed")
+//    public void tenant_deleted_successfully_message_is_displayed() {
+//        Assert.assertTrue(testContext.tenantspage.tenantDeletedSuccessfully());
+//    }
 
     @Then("Tenant is removed from the tenants list")
     public void tenant_is_removed_from_the_tenants_list(DataTable dataTable) {
+        Assert.assertTrue(testContext.tenantspage.tenantRemovedFromTheList(dataTable));
 
     }
 
@@ -89,7 +90,7 @@ public class Tenantssteps {
 
     @Then("Tenant updated successfully message is displayed")
     public void tenant_updated_successfully_message_is_displayed() {
-        testContext.updatetenantspage.updateTenantsSuccessPageDisplayed();
+        Assert.assertTrue(testContext.updatetenantspage.updateTenantsSuccessPageDisplayed());
     }
 
     @Then("Tenant is updated in the tenants list")
